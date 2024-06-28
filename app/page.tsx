@@ -3,6 +3,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <Image
+            src="/main-page-dog1.png"
+            width={1000}
+            height={760}
+            className="hidden md:block"
+            alt="Screenshots of the dashboard project showing desktop version"
+            layout = "responsive"
+        />
       <div className="container">
         <h1 className= "title">Pet MBTI</h1>
         <p className = "intro">What is your pet's MBTI? Discover their personality traits and how to best understand and care for them.</p>
