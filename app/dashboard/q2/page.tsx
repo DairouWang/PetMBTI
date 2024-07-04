@@ -14,7 +14,7 @@ export default function Q2Page() {
         if (selectedAnswer) {
             // Here you could save the answer if needed
             console.log('Selected answer:', selectedAnswer);
-            router.push(ROUTES.RESULT);  // Assuming this goes to the result page
+            router.push(ROUTES.PET_NAME);
         } else {
             alert('Please select an answer before proceeding.');
         }

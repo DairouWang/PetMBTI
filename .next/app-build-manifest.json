@@ -21,6 +21,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/q2/page.js"
     ],
+    "/dashboard/pet-name/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/pet-name/page.js"
+    ],
     "/dashboard/result/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
